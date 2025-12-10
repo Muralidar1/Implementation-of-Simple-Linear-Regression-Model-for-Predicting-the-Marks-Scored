@@ -60,7 +60,7 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 
-mse=mean_absolute_error(y_test,y_pred)
+mse=mean_squared_error(y_test,y_pred)
 print('Mean Square Error = ',mse)
 mae=mean_absolute_error(y_test,y_pred)
 print('Mean Absolute Error = ',mae)
